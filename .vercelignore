@@ -1,0 +1,17 @@
+# Ignore local virtual environments
+.venv
+venv
+
+# Ignore uv python configuration to force Vercel to use requirements.txt
+pyproject.toml
+uv.lock
+
+# Ignore test media assets
+pimple.jpg
+test_audio.mp3
+image.png
+
+# Ignore cache directories
+__pycache__
+.gradio
+.pytest_cache
