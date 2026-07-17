@@ -1,0 +1,21 @@
+[project]
+name = "health-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.116.0",
+    "deepgram-sdk>=7.5.0",
+    "fastapi>=0.115.0",
+    "gradio>=6.20.0",
+    "groq>=1.5.0",
+    "python-multipart>=0.0.9",
+    "uvicorn>=0.30.0",
+    "openai>=2.0.0",
+    "pillow>=12.3.0",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.2",
+    "speechrecognition>=3.17.0",
+]
